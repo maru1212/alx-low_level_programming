@@ -13,7 +13,7 @@ int main(void)
 
 	for (small = 'a'; small <= 'z'; small++)
 		putchar(small);
-	for (capital = 'A'; capital <='Z'; capital++)
+	for (capital = 'A'; capital <= 'Z'; capital++)
 		putchar(capital);
 	putchar(newline);
 	return (0);
