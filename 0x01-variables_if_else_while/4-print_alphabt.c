@@ -17,4 +17,4 @@ int main(void)
 	}
 	putchar(newline);
 	return (0);
-}	
+}
