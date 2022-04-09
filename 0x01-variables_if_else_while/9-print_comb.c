@@ -8,16 +8,16 @@
 int main(void)
 {
 	int n = 0;
-	short c = ',';
-	short s = ' ';
-	short new = '\n';
-
-	for (n = '0'; n <= '9'; n++)
+	while (n < 10)
 	{
-		putchar(n);
-		putchar(c);
-		putchar(s);
+		putchar(48 + n);
+		if (n != 9)
+		{
+			putchar(',');
+			putchar(' ');
+		}
+	n++;
 	}
-	putchar(new);
+	putchar('\n');
 	return (0);
 }
