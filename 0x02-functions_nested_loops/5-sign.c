@@ -5,8 +5,8 @@
  * @n: the value to be checked.
  *
  * Retrun: 1 if n is +, 
- * 	   0 if n is zero.
- * 	   -1 if n is lessthan zero.
+ * 	0 if n is zero,
+ * 	-1 if n is lessthan zero.
  */
 
 int print_sign(int n)
