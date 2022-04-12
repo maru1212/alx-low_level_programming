@@ -13,5 +13,5 @@ void print_alphapet(void)
 		_putchar(c);
 
 	_putchar('\n');
-	return (0);
+	return;
 }
