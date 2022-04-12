@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_sign - prints sign of the value.
+ * print_sign - prints sign of a number.
  * @n: the value to be checked.
  * Retrun: 1 if n is +,
  * 0 if n is zero,
