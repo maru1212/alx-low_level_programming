@@ -7,7 +7,7 @@
  * Retrun: 1 if n is +, 0 if n is zero and -1 if n is lessthan zero.
  */
 
-int print_sign(int n);
+int print_sign(int n)
 {
 	if (n > 0)
 	{
