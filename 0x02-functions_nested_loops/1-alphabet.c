@@ -7,6 +7,8 @@
  */
 void print_alphapet(void)
 {
+	char c;
+
 	for (c = 'a'; c <= 'z'; c++)
 		_putchar(c);
 
