@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _isalpha - check if the value is alphabet or not
- * @c: The value to be checked
+ * _isalpha - check if the value is alphabet or not.
+ * @c: The value to be checked.
  *
  *return 1 for an alphabet, 0 for other.
  */
