@@ -10,7 +10,7 @@
 void times_table(void)
 {
 	int r, c, n;
-	
+
 	for (r = 0; r <= 9; r++)
 	{
 		_putchar('0');
@@ -31,7 +31,7 @@ void times_table(void)
 			{
 				_putchar(n + '0');
 			}
-			if ((n > 9) && (c < 9))	
+			if ((n > 9) && (c < 9))
 			{
 				_putchar((n / 10) + '0');
 				_putchar((n % 10) + '0');
