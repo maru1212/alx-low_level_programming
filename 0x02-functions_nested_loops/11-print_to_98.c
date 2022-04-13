@@ -13,36 +13,16 @@ void print_to_98(int n)
 {
 	int y;
 
-	if (n > 98)
+	if (n >= 98)
 	{
-		for (y = n; y >= 98; y--)
-		{
-			if (y > 98)
-			{
-				_putchar(y + '0');
-				_putchar(',');
-				_putchar(' ');
-			}
-			else
-				_putchar(y + '0');
-		}
+		while (n > 98)
+			printf("%d, ", n--);
+		printf("%d\n", n);
 	}
-	if (n == 98)
+	else
 	{
-		putchar(n); 
-	}
-	if (n < 98)
-	{
-		for (y = n; y <= 98; y++)
-		{
-			if (y < 98)
-			{
-				_putchar(y + '0');
-				_putchar(',');
-				_putchar(' ');
-			}
-			else
-				_putchar(y + '0');
-		}
+		while (n < 98)
+			printf("%d, ", n++);
+		printf("%d\n", n);
 	}
 }
