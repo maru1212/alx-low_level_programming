@@ -24,12 +24,12 @@ void print_times_table(int n)
 				if (c < n)
 				{
 					_putchar(' ');
-					_putchar(p);
+					_putchar(p + '0');
 					_putchar(',');
 					_putchar(' ');
 				}
 				if (c == n)
-					_putchar(p);
+					_putchar(p + '0');
 				else
 				{
 					_putchar((n / 10) + '0');
