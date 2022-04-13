@@ -3,7 +3,7 @@
 /**
  * print_sign - prints sign of a number.
  * @n: the value to be checked.
- * Retrun: 1 if n is +,
+ * Retrun: print_sign will be 1 if n is +,
  * 0 if n is zero,
  * -1 if n is lessthan zero.
  */
