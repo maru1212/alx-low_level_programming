@@ -2,10 +2,7 @@
 #include "main.h"
 
 /**
- *
- *
- *
- *
+ * print_to_98 - print natural numbers up to 98.
  *
  */
 
