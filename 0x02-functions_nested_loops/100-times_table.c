@@ -17,17 +17,24 @@ void print_times_table(int n)
 		{
 			_putchar('0');
 			_putchar(',');
-			_putchar(' ');
 			for (c = 1; c <= n; c++)
 			{
 				p = c * r;
-				if (c < n)
+				if ((c < n) && (p < 9))
 				{
+					_putchar(' ');
+					_putchar(' ');
 					_putchar(' ');
 					_putchar(p + '0');
 					_putchar(',');
-					_putchar(' ');
 				}
+				if ((c < n) && (p > 9))
+				{
+					_putchar(' ');
+					_putchar(' ');
+					_putchar(p + '0');
+					_putchar(',');
+
 				if (c == n)
 				{
 					_putchar(' ');
