@@ -21,14 +21,14 @@ void print_times_table(int n)
 			for (c = 1; c <= n; c++)
 			{
 				p = c * r;
-				if (n < 9)
+				if (c < n)
 				{
 					_putchar(' ');
 					_putchar(p);
 					_putchar(',');
 					_putchar(' ');
 				}
-				if (n == 9)
+				if (c == n)
 					_putchar(p);
 				else
 				{
