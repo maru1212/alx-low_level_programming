@@ -19,9 +19,9 @@ int main(void)
 		else if (n % 3 == 0)
 			printf("%s ", F);
 		else if (n % 5 == 0)
-			/*if (n == 100)
+			if (n == 100)
 				printf("%s", B);
-				else*/
+			else
 			        printf("%s ", B);
 		else
 			printf("%d ", n);
