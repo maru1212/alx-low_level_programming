@@ -13,18 +13,17 @@ int main(void)
 	for (n = 1; n <= 100; n++)
 	{
 		if ((n % 3 == 0) && (n % 5 == 0))
-			printf("%s%s ", F, B);
+			printf("%s%s", F, B);
 		else if (n % 3 == 0)
-			printf("%s ", F);
+			printf("%s", F);
 		else if (n % 5 == 0)
-			if (n == 100)
-				printf("%s", B);
-			else
-			        printf("%s ", B);
+	      	        printf("%s", B);
 		else
-			printf("%d ", n);
+			printf("%d", n);
+		if (n == 100)
+			putchar(' ');
+		else
+			putchar('\n');
 	}
-	printf("\n");
-
 	return (0);
 }
