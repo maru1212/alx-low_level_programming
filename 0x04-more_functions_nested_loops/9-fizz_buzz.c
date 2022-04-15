@@ -1,10 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - prints numbers up to 100
+ * main - check the code.
  *
- *
- * Return: 0
+ * Return: Always 0.
  */
 
 int main(void)
