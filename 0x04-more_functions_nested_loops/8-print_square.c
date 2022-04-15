@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
+ * print_square - prints square with #.
+ * @size: is the size of the squre.
  *
  *
- *
- *
- *
+ * Retrun: void.
  */
 
 void print_square(int size)
