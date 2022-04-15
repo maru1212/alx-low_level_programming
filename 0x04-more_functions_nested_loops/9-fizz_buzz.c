@@ -19,7 +19,10 @@ int main(void)
 		else if (n % 3 == 0)
 			printf("%s ", F);
 		else if (n % 5 == 0)
-			printf("%s ", B);
+			if (n == 100)
+				printf("%s", B);
+			else
+			        printf("%s ", B);
 		else
 			printf("%d ", n);
 	}
