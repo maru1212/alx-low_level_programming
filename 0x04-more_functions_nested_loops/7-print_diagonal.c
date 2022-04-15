@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * print_diagonal - prints diagonals.
- * @n; is how many time the diagonal will be printed.
+ * print_diagonal - prints diagonal line n times.
+ * @n: is the number of diagonals to be displayed.
  *
- *
- * Retrun: void.
+ * Return: void.
  */
 
 void print_diagonal(int n)
@@ -19,11 +18,13 @@ void print_diagonal(int n)
 			for (c = 0; c < n; c++)
 			{
 				if (c == r)
+				{
 					_putchar('\\');
-				else
+					_putchar('\n');
+				}
+				else if (c < r)	
 					_putchar(' ');
 			}
-			_putchar('\n');
 		}
 	}
 	else
