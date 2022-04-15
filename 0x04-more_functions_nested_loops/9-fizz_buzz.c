@@ -20,7 +20,7 @@ int main(void)
 	      	        printf("%s", B);
 		else
 			printf("%d", n);
-		if (n == 100)
+		if (n != 100)
 			putchar(' ');
 		else
 			putchar('\n');
