@@ -4,8 +4,7 @@
  * _strlen - counts the number of charactors.
  * @s: are the characters to be counted
  *
- *
- * Retrun: always i (Success)
+ * Return: always i (Success)
  */
 
 int _strlen(char *s)
