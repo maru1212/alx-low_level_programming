@@ -5,7 +5,7 @@
  * @s: are the characters to be counted
  *
  *
- * Retrun: to count.
+ * Retrun: length of a string.
  */
 
 int _strlen(char *s)
