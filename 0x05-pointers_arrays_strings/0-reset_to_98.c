@@ -2,7 +2,7 @@
 
 /**
  * reset_to_98 - resets the number to 9.
- * @*n: a pointer which points to the provided number.
+ * @n: a pointer which points to the provided number.
  *
  *
  * Return: void
