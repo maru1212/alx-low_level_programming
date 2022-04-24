@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
+ * _strcat - appends strings
+ * @dest: the destination of the string to be appended
+ * @src: the characters to be appended
  *
- *
- *
- *
+ * Return: dest
  */
 
 char *_strcat(char *dest, char *src)
