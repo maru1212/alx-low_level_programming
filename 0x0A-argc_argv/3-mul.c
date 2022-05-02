@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
         (void)argc;
 	if (argc == 3)
 	{
-		printf("%d\n", c);
+		printf("%i\n", c);
 	}
 	else
 	{
