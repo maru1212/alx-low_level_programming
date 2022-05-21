@@ -16,4 +16,3 @@ free(d->owner);
 free(d->name);
 free(d);
 }
-© 2022 GitHub, Inc.
